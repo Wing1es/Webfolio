@@ -282,7 +282,7 @@ nav .home a .vertical-line {
     width: 25%;
     height: 25%;
     position: absolute;
-    top: 280vh;
+    top: 292vh;
     object-fit: cover;
     object-position: top;
 }
