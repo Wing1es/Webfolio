@@ -202,7 +202,7 @@ function startAnimations() {
 
   // Projects
   ScrollTrigger.matchMedia({
-    "(min-width:863px)":()=>{
+    "(max-width:863px)":()=>{
       let cylindertl = gsap.timeline({
         scrollTrigger: {
           trigger: '#projects',
@@ -262,7 +262,7 @@ function startAnimations() {
         ease: 'back.out(1.7)'
       }, '-=0.5');
     },
-    "(max-width:863px)":()=>{
+    "(min-width:863px)":()=>{
       let cylindertl = gsap.timeline({
         scrollTrigger: {
           trigger: '#projects',
