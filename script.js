@@ -34,7 +34,6 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 document.addEventListener("DOMContentLoaded", () => {
   const scroll = window.locoScroll;
-  console.log("locoScroll instance:", scroll);
   const navHeight = 84.5;
   
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -203,7 +202,7 @@ function startAnimations() {
 
   // Projects
   ScrollTrigger.matchMedia({
-    "(max-width:863px)":()=>{
+    "(min-width:863px)":()=>{
       let cylindertl = gsap.timeline({
         scrollTrigger: {
           trigger: '#projects',
