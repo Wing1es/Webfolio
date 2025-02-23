@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Peter Parker’s world as Spider-Man, featuring photography series, tech innovations, and community projects in New York City.">
+    <title>Spider-Man</title>
+    <style>
+        #preloader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #fff;
+          z-index: 9999;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7258a6de76.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="preloader"></div>
+    <main style="opacity:0;">
+        <nav data-scroll data-scroll-sticky data-scroll-target="#wrapper" data-scroll-speed="0">
+            <div class="home">
+              <a href="#page1">
+                <i class="fa-solid fa-spider fa-3x"></i>
+                <div class="vertical-line"></div>
+              </a>
+            </div>
+            <div class="links">
+              <a href="#about" class="hover">About<span class="underline"></span></a>
+              <a href="#projects" class="hover">Projects<span class="underline"></span></a>
+              <a href="#footer" class="hover">Contact<span class="underline"></span></a>
+            </div>
+          </nav> 
+        <div id="wrapper" data-scroll-container> 
+            <div id="page1">
+                <h1>Hi, I'm <br><span class="name">Peter Parker</span></h1>
+                <p>Your Friendly Neighborhood <span class="name1">Spider-Man</span></p>
+                <div id="container">
+                    <div class="sticky pic1">
+                        <div class="pic">
+                            <img src="./img/1.jpg" alt="spider-man">
+                        </div>
+                    </div>
+                    <div class="sticky pic2">
+                        <div class="pic">
+                            <img src="./img/2.jpg" alt="Peter Parker with camera">
+                        </div>
+                    </div>
+                    <div class="sticky pic3">
+                        <div class="pic">
+                            <img src="./img/3.jpg" alt="Peter Parker with flowers">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about">
+                <h2>About Me</h2>
+                <p>
+                  I’m <span class="name2">Peter Parker</span> – better known as Spider-Man. I’m not just a superhero; I’m a creative soul who uses my powers to capture the essence of New York City and support my community. From swinging through skyscrapers to documenting life’s moments on camera. <strong>I embrace the motto -</strong>
+                </p>
+                <p class="motto">“With great power</p>
+                <p class="motto">comes great </p>
+                <p class="motto">responsibility.”</p>
+            </div>
+            <div id="projects">
+                <h1>Missions</h1>
+                <img src="./img/download-removebg-preview.png" alt="">
+                <div class="mission-content">
+                    <div class="content">
+                        <h2>The Web of Life</h2>
+                        <p>A photography series capturing the vibrant energy and hidden beauty of New York City, revealing its eclectic urban landscapes, diverse cultures, and timeless charm.</p>
+                    </div>
+                    <div class="content">
+                        <h2>Spider-Tech Innovations</h2>
+                        <p>Experimenting with cutting-edge technology to enhance agility and design, transforming workflows and driving innovative outcomes.</p>
+                    </div>
+                    <div class="content">
+                        <h2>Daily Bugle Collab</h2>
+                        <p>Collaborative projects with local media to document the pulse of the city, amplifying voices and capturing urban stories.</p>
+                    </div>
+                </div>
+            </div>
+        <footer id="footer">
+            <h1>Thank you for stopping by -</h1>
+            <p>Let’s work together to make a positive impact.</p>
+            <div class="contact">
+                <form id="contact-form">
+                  <input type="text" name="from_name" placeholder="Your Name" required>
+                  <input type="email" name="reply_to" placeholder="Your Email" required>
+                  <textarea name="message" placeholder="Spin a Message" required></textarea>
+                  <button type="submit">Swing By and Say Hi</button>
+                </form>
+            </div>
+            <p class="spidey">End of Web-page, click on spidey to swing back</p> 
+            <p class="copyright">© 2025 Shekar. All rights reserved.</p>
+            <img src="./img/spiderweb-black-spiderweb-free-vector.jpg" alt="Spider Web">
+        </footer>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

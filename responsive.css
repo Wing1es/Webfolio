@@ -1,0 +1,526 @@
+@media (min-width:863px) and (max-width:1338px) {
+    #wrapper{
+        padding-bottom: 20vh;
+    }
+    
+    /* Navbar */
+    nav, nav a {
+        font-size: 1.5vw;
+    }
+
+    nav .links {
+        padding: 1.7vw;
+    }
+    
+    nav .links a{
+        font-size: 1.7vw;
+    }
+
+    /* Page1 */
+    #page1 h1{
+        margin-top: 16vh;
+    }
+    
+    #page1 h1 .name {
+        font-size: 8vw;
+    }
+
+    #page1 p {
+        font-size: 2.5vw;
+        margin-top: 3vh;
+        width: 50%;
+        margin-left: 25vw;
+    }
+
+    #page1 p .name1{
+        line-height: 2.5;
+        padding: 0.8vw;
+    }
+
+    .sticky:nth-child(1){
+        display: none;
+    }
+
+    .sticky:nth-child(2){
+        margin-top: 5vh;
+        left: -10%;
+        bottom: 7%;
+    }
+
+    .sticky:nth-child(3){
+        left: 15%;
+        top: 20%;
+    }
+
+    #container .sticky .pic{
+        height: 25vh;
+        width: 24vh;
+    }
+
+    #container .sticky{
+        height: 34vh;
+        width: 30vh;
+    }
+
+    /* About */
+    #about{
+        margin-top: -8vh;
+    }
+
+    #about p{
+        margin-left: 33vh;
+    }
+
+    #about p .name2{
+        padding: 0.4vw;
+    }
+    
+    #about .motto{
+        font-size: 9vw;
+        margin-bottom: -9vh;
+        margin-left: 17vh;
+    }
+    
+    nav .home a .vertical-line {
+        left: 72%;
+    }
+    
+    /* Project */
+    #projects{
+        margin-top: 8vh;
+        padding: 15vh 0vw 0 9vw;
+    }
+    
+    #projects h1{
+        font-size: 11vw;
+    }
+    
+    #projects img{
+        width: 22%;
+        height: 22%;
+        top: 225vh;
+        left: 14.5vh;
+    }
+    
+    .content h2{
+        font-size: 5vw;
+    }
+    
+    .content p{
+        font-size: 1.6vw;
+    }
+    
+    /* footer */
+    footer{
+        width: 100%;
+        min-height: 80vh;
+        margin-top: 9vh;
+        padding-left: 3vw;
+        overflow: visible;
+    }
+
+    footer img{
+        display: none;
+    }
+
+    footer h1{
+        font-size: 7vw;
+        width: 80%;
+    }
+
+    footer p{
+        font-size: 2.5vw;
+        width: 70%;
+        margin-top: 4vh;
+    }
+
+    #contact-form{
+        width: 60%;
+        margin-top: 10vh;
+    }
+
+    #contact-form input, #contact-form textarea{
+        padding: 2.2vw;
+    }
+
+    #contact-form button{
+        padding: 2.7vw;
+        font-size: 2vw;
+    }
+
+    footer .spidey{
+        font-size: 2vw;
+        margin-bottom: 5vh;
+    }
+
+    footer .copyright{
+        bottom: 60%;
+        left: 76%;
+        padding: 3vw;
+        font-size: 1.5vw;
+        width: 20%;
+        height: 15%;
+    }
+    
+}
+
+@media (min-width:600px) and (max-width:863px){
+    #wrapper{
+        padding-bottom: 20vh;
+    }
+    
+    /* Navbar */
+    nav, nav a {
+        font-size: 1.8vw;
+    }
+
+    nav .links {
+        padding: 2.2vw;
+    }
+    
+    nav .links a{
+        font-size: 2.2vw;
+    }
+
+    /* Page1 */
+    #page1 h1{
+        font-size: 6vw;
+        margin-top: 15vh;
+    }
+
+    #page1 h1 .name {
+        font-size: 12vw;
+    }
+
+    #page1 p {
+        font-size: 3vw;
+        margin-top: 3vh;
+        width: 80%;
+        margin-left: 10vw;
+    }
+
+    #page1 p .name1{
+        line-height: 2.5;
+        padding: 0.8vw;
+    }
+
+    .sticky:nth-child(1){
+        display: none;
+    }
+
+    .sticky:nth-child(2){
+        margin-top: -2vh;
+        left: -15%;
+        width: 70%;
+    }
+
+    .sticky:nth-child(3){
+        left: 55%;
+        top: -60%;
+    }
+
+    #container .sticky .pic{
+        height: 25vh;
+        width: 20vh;
+    }
+
+    #container .sticky{
+        height: 33vh;
+        width: 25vh;
+    }
+
+    /* About */
+    #about{
+        margin-top: -8vh;
+    }
+
+    #about h2{
+        font-size: 8vw;
+    }
+
+    #about p{
+        font-size: 2.5vw;
+        width: 70%;
+        margin-left: 15vw;
+    }
+
+    #about p .name2{
+        padding: 0.7vw;
+    }
+    
+    #about .motto{
+        font-size: 9vw;
+        margin-bottom: -9vh;
+        margin-left: 11vh;
+    }
+    
+    nav .home a .vertical-line {
+        left: 72%;
+    }
+    
+    /* Project */
+    #projects{
+        margin-top: 0vh;
+        padding: 8vh 0vw 0 9vw;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    #projects h1{
+        font-size: 15vw;
+    }
+    
+    .mission-content:nth-last-child(1){
+        padding-bottom: 15vh;
+    }
+    
+    #projects img{
+        width: 22%;
+        height: 22%;
+        top: 210vh;
+        left: 14.5vh;
+    }
+    
+    .content h2{
+        font-size: 8vw;
+    }
+    
+    .content p{
+        font-size: 2.6vw;
+    }
+    footer{
+        height: 100vh;
+        margin-top: 8vh;
+        padding-left: 0vw;
+        overflow: visible;
+    }
+
+    footer img{
+        display: none;
+    }
+
+    footer h1{
+        font-size: 8vw;
+        width: 80%;
+    }
+
+    footer p{
+        font-size: 3.5vw;
+        width: 70%;
+        margin-top: 2vh;
+    }
+
+    #contact-form{
+        width: 65%;
+        margin-top: 5vh;
+    }
+
+    #contact-form input, #contact-form textarea{
+        padding: 2.2vw;
+    }
+
+    #contact-form button{
+        padding: 3vw;
+        font-size: 3vw;
+    }
+
+    footer .spidey{
+        font-size: 2.5vw;
+    }
+
+    footer .copyright{
+        bottom: 56%;
+        left: 74%;
+        padding: 1vw;
+        font-size: 2.5vw;
+        width: 20%;
+        height: 10%;
+    }
+}
+
+@media (max-width:600px) {
+    #wrapper{
+        padding-bottom: 0vh;
+    }
+    
+    /* Navbar */
+    nav, nav a {
+        font-size: 3vw;
+    }
+
+    nav .links {
+        padding: 4vw;
+    }
+    
+    nav .links a{
+        font-size: 4.3vw;
+    }
+
+    /* Page1 */
+    #page1 h1{
+        font-size: 8vw;
+        margin-top: 25vh;
+    }
+
+    #page1 h1 .name {
+        font-size: 14vw;
+    }
+
+    #page1 p {
+        font-size: 6vw;
+        margin-top: 3vh;
+        margin-left: 10vw;
+        width: 80%;
+    }
+
+    #page1 p .name1{
+        line-height: 2.5;
+        padding: 2.5vw;
+    }
+
+    .sticky:nth-child(1){
+        display: none;
+    }
+
+    .sticky:nth-child(2){
+        margin-top: 0vh;
+        left: -15%;
+    }
+
+    .sticky:nth-child(3){
+        left: 31.5%;
+    }
+
+    #container .sticky .pic{
+        height: 23vh;
+        width: 18vh;
+    }
+
+    #container .sticky{
+        height: 30vh;
+        width: 23vh;
+    }
+
+    /* About */
+    #about{
+        margin-top: -12vh;
+    }
+
+    #about h2{
+        font-size: 12vw;
+    }
+
+    #about p{
+        font-size: 5vw;
+        width: 70%;
+        margin-left: 15vw;
+    }
+    
+    #about p .name2{
+        padding: 1.2vw;
+    }
+    
+    #about .motto{
+        font-size: 12vw;
+        width: 100%;
+        margin-bottom: -9vh;
+        margin-left: -2vh;
+        text-align: end;
+    }
+    
+    nav .home a .vertical-line {
+        left: 66%;
+    }
+    
+    /* Project */
+    #projects{
+        margin-top: 10vh;
+        padding: 6vh 0vw 0 10vw;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    #projects h1{
+        font-size: 20vw;
+        text-decoration: underline;
+        color: #f2f2f2;
+        text-decoration-thickness: 1.5vw;
+    }
+    
+    .mission-content:nth-last-child(1){
+        padding-bottom: 30vh;
+    }
+    
+    #projects img{
+        display: none;
+    }
+    
+    .content h2{
+        margin-top: -6vh;
+        font-size: 10vw;
+        margin-left: -38vw;
+    }
+    
+    .content p{
+        font-size: 4.8vw;
+        margin-left: -40vw;
+        width: 220%;
+    }
+
+    .mission-content:nth-last-child(1){
+        padding-bottom: 8vh;
+    }
+
+    footer{
+        height: 55vh;
+        margin-top: 8vh;
+        padding-left: 2.5vw;
+        overflow: visible;
+    }
+
+    footer img{
+        display: none;
+    }
+
+    footer h1{
+        font-size: 11vw;
+        width: 80%;
+    }
+
+    footer p{
+        font-size: 4.5vw;
+        width: 70%;
+        margin-top: 2vh;
+    }
+
+    #contact-form{
+        width: 80%;
+        margin-top: 5vh;
+    }
+
+    #contact-form input, #contact-form textarea{
+        padding: 3.2vw;
+    }
+
+    #contact-form button{
+        padding: 5vw;
+        font-size: 4vw;
+    }
+
+    footer .spidey{
+        font-size: 4vw;
+    }
+
+    footer .copyright{
+        bottom: 56%;
+        left: 74%;
+        padding: 1vw;
+        font-size: 2.5vw;
+        width: 20%;
+        height: 10%;
+    }
+}

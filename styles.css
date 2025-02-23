@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'gilroy';
+    src: url(./Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'silk';
+    src: url(./Silk\ Serif\ Medium\ Italic.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+    font-family: 'gilroy';
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+main {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#wrapper{
+    padding-bottom: 10vh;
+}
+
+/* Navbar */
+nav {
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+    background: transparent;
+    padding-top: 3vh;
+}
+
+nav, nav a {
+    color: rgb(151, 32, 32);
+    text-decoration: none;
+    font-size: 1.1vw;
+    position: relative;
+}
+
+nav .home a{
+    position: relative;
+}
+
+nav .home a i{
+    margin-left: 4vw;
+    width: fit-content;
+    height: fit-content;
+    transition: transform 0.6s ease;
+    color:rgb(151, 32, 32) ;
+}
+
+nav .home a i:hover {
+    transform: rotate(180deg);
+}
+
+nav .links {
+    margin-right: 4vw;
+    width: fit-content;
+    height: fit-content;
+    padding: 1vw;
+    border-radius: 3em;
+    border: #cccccc6a 2px solid;
+    background-color: #2a2a2a27;
+    display: flex;
+    gap: 4vw;
+    position: relative;
+}
+
+nav .links a .underline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color:rgb(151, 32, 32);
+}
+
+/* Page1 */
+#page1{
+    width: 100%;
+    height: 100vh;
+}
+
+#page1 h1{
+    font-family: 'gilroy';
+    font-size: 3vw;
+    margin-top: 16vh;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+}
+
+#page1 h1 .name {
+    color: #000;
+    font-weight: 700;
+    font-size: 7vw;
+    display: block;
+    text-align: center;
+}
+
+#page1 p {
+    font-size: 1.5vw;
+    margin-top: 5vh;
+    width: 50%;
+    font-weight: 300;
+    margin-left: 25vw;
+    text-align: center;
+}
+
+#page1 p .name1{
+    padding: 0.8vw;
+    border-radius: 3em;
+    background-color: #2a2a2a27;
+    color:rgb(192, 11, 11);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2vw;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+#container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.6s ease;
+    border-radius: 10px;
+}
+
+#container img:hover {
+    filter: none;
+}
+
+#container .sticky{
+    width: 100%;
+    height: 38vh;
+    background-color: #cccccc73;
+    border-radius: 10px;
+}
+
+#container .sticky .pic {
+    width: 80%;
+    height: 28vh;
+    margin-left:10% ;
+    margin-top:2.7vh;
+}
+
+.sticky:nth-child(1){
+    transform: rotate(-15deg) scale(1.6);
+    margin-top: 10vh;
+    position: relative;
+    left: -100%;
+    bottom: 40%;
+}
+
+.sticky:nth-child(2){
+    position: relative;
+    left: 20%;
+    bottom: -15%;
+    transform: rotate(-8deg)
+}
+
+.sticky:nth-child(3){
+    position: relative;
+    left: 90%;
+    bottom: 60%;
+    transform: rotate(6deg)
+}
+
+
+/* About */
+#about{
+    height: 100vh;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+#about h2{
+    font-size: 8vw;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'silk';
+}
+
+#about p{
+    font-size: 1.8vw;
+    width: 50%;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    font-weight: 300;
+    text-align: center;
+}
+
+#about p .name2{
+    padding: 0.3vw;
+    border-radius: 3em;
+    color: rgb(192, 11, 11);
+    background-color: #2a2a2a27;
+}
+
+#about .motto{
+    font-size: 9vw;
+    font-weight: 600;
+    width: 70%;
+    margin-bottom: -12vh;
+    margin-left: 25vh;
+}
+
+nav .home a .vertical-line {
+    position: absolute;
+    top: 100%;
+    left: 77.5%;
+    width: 2px;      
+    height: 0;
+    background-color: #928282;
+    z-index: -1;
+    transform: translateX(-50%);
+}
+
+/* Project */
+#projects{
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 45vh;
+    background-color: #151515;
+    padding: 15vh 9vw 0;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    color: #CCC;
+}
+
+#projects h1{
+    font-size: 10vw;
+    font-weight: 700;
+    margin-bottom: 10vh;
+}
+
+.mission-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5vw;
+    padding: 2em;
+    margin-bottom: 4em;
+}
+
+.mission-content .content{
+    width: 59%;
+    padding: .7em;
+}
+
+.mission-content:nth-last-child(1){
+    padding-bottom: 20vh;
+}
+
+#projects img{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 280vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.content h2{
+    font-weight: 600;
+    font-size: 4vw;
+    margin-bottom: 2vh;
+}
+
+.content p{
+    font-size: 1.3vw;
+    font-weight: 300;
+    width: 90%;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+footer img{
+    position: relative;
+    left: 55%;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    object-position: top;
+    top: -50%;
+    z-index: -1;
+}
+
+footer h1{
+    font-size: 6vw;
+    font-weight: 700;
+    margin-left: 10%;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+footer p{
+    font-size: 1.5vw;
+    font-weight: 300;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5vh;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 5vh;
+}
+
+#contact-form input, #contact-form textarea{
+    padding: 1vw;
+    margin-bottom: 2vh;
+    border: none;
+    border-radius: 3em;
+    background-color: #2a2a2a27;
+    resize: none;
+}
+
+#contact-form button{
+    padding: 1vw;
+    border: none;
+    border-radius: 3em;
+    background-color: #dd767627;
+    color: #000;
+    font-weight: 700;
+    font-size: 0.9vw;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+#contact-form button:hover{
+    background-color: #e63a3ab5;
+}
+
+footer .spidey{
+    font-size: 1vw;
+}
+
+footer .copyright{
+    position: absolute;
+    bottom: 80%;
+    left: 79%;
+    text-align: center;
+    padding: 0.5vw;
+    font-size: 1vw;
+    background-color: #000;
+    color: #fff;
+    width: 20%;
+    transform: rotate(-90deg);
+}
